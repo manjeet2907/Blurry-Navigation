@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@300;400&display=swap');
+
+*{
+   
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Antonio', sans-serif;
+    display:flex;
+    height: 100vh;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* background-color: azure; */
+    margin:0;
+    overflow: hidden;   
+}
+.backgr{
+    width:100vw;
+    height:100vh;
+    position: relative;
+    z-index: -1;
+    filter:blur(0px);
+    background: url("https://images.unsplash.com/photo-1618987866919-a95b7d84d5d0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1023&q=80" ) no-repeat center center/cover;;
+}
+/* img{
+    width:100vw;
+    height:100vh;
+    object-fit: cover;
+} */
+#loading{
+    color:white;
+    position: absolute;
+    top:50vh;
+    left:50vw;
+    transform: translateY(-50%);
+    font-size: 40px;
+    z-index: 1;
+
+}
